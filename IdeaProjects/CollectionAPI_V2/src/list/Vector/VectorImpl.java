@@ -1,5 +1,6 @@
 package list.Vector;
 
+import java.util.Enumeration;
 import java.util.Vector;
 
 /*
@@ -25,11 +26,11 @@ public class VectorImpl {
 		//v.stream().forEach(x->System.out.print(x+","));
 
 		//legacy method of vector class.
-		/*Enumeration enumeration=v.elements();
+		Enumeration enumeration=v.elements();
 
-		while(enumeration.hasNext()){
-			System.out.println(enumeration.next());
-		}*/
+		while(enumeration.hasMoreElements()){
+			System.out.println(enumeration.nextElement());
+		}
 		
 	}
 
